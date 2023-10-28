@@ -9,6 +9,8 @@
 # its affiliates is strictly prohibited.
 
 """Converting legacy network pickle into the new format."""
+import sys
+sys.path.append("PanoHead")
 
 import click
 import pickle
